@@ -24,6 +24,18 @@
 
 </div>
 
+## Table of Contents
+
+- [At A Glance](#at-a-glance)
+- [Start Here](#start-here)
+- [Explore The Stack](#explore-the-stack)
+- [Built For](#built-for)
+- [Why This Repo Wins](#why-this-repo-wins)
+- [Scope Guarantee](#scope-guarantee)
+- [Star History](#star-history)
+- [Maintenance Notes](#maintenance-notes)
+- [Contributing](#contributing)
+
 ## At A Glance
 
 > The ultimate collection of APIs for building autonomous AI agents - **3,060 production-ready APIs** across **Agents**, **AI Models**, and **MCP Servers**.
@@ -31,7 +43,7 @@
 This repository is designed to feel like a launchpad, not a junk drawer. It is tightly scoped around the API layers that matter most when you are building autonomous systems, copilots, tool-using assistants, and MCP-native workflows.
 
 | Metric | Count |
-|--------|-------|
+| -------- | ------- |
 | Total APIs | 3,060 |
 | Categories | 3 |
 | Last Updated | 2026-09-30 |
@@ -143,7 +155,8 @@ This repository intentionally includes only:
 - **AI Models** for inference, generation, analysis, and reasoning
 - **MCP Servers** for exposing tools and systems to AI assistants through MCP
 
-Anything outside those three categories has been removed from the tracked repository structure.
+Anything outside those three categories has been removed from the tracked
+repository structure.
 
 ## Star History
 
@@ -151,7 +164,17 @@ Anything outside those three categories has been removed from the tracked reposi
 
 ## Maintenance Notes
 
-- A GitHub Actions workflow now syncs the Apify catalog daily and commits only when upstream data actually changes.
-- The generation scripts in [settings](./settings/) are configured to rebuild only the three tracked categories above.
-- The visual README layout is now part of the repo's default presentation, not just a temporary pass.
+- A GitHub Actions workflow syncs the Apify catalog daily and commits
+  only when upstream data actually changes.
+- The generation scripts in [settings](./settings/) rebuild only the
+  three tracked categories above.
+- The visual README layout is now part of the repo's default presentation,
+  not just a temporary pass.
 - API links keep the existing affiliate tracking from the upstream source data.
+
+## Contributing
+
+Contributions are welcome! Open an
+[issue](https://github.com/cporter202/agentic-ai-apis/issues) to report
+problems, suggest improvements, or propose new entries. See also the
+[settings](./settings/) directory for data generation details.
